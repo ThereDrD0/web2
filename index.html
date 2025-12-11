@@ -5,16 +5,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Мой сайт</title>
 	<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 	<header>
-		<div>
-			<div></div> <!-- TODO: Иконки -->
+		<div class="align-center space-between">
+			<div>
+				<img src="assets/icons/search.png" alt="search icon">
+			</div>
 			<h1>Avion</h1>
-			<div></div> <!-- TODO: Иконки -->
+			<div>
+				<img src="assets/icons/cart.png" alt="cart icon">
+				<img src="assets/icons/avatar.png" alt="avatar icon">
+			</div>
 		</div>
+		<hr>
 		<nav>
-			<div class="align-center-width">
+			<div class="align-center space-around">
 				<a href="/plant-posts.html">Plant posts</a>
 				<a href="/ceramics.html">Ceramics</a>
 				<a href="/tables.html">Tables</a>
@@ -28,104 +38,113 @@
 
 	<main>
 		<section id="priority-products">
-			<!-- TODO: Фоны -->
-			<div>
+			<div id="priority-products-text">
 				<h2>The furniture brand for the future, with timeless designs</h2>
 				<button>View collection</button>
 				<p>A new era in eco friendly furniture with Avelon, the French luxury retail brand 
 					with nice fonts, tasteful colors and a beautiful way to display things digitally 
 					using modern web technologies.</p>
 			</div>
-			<div>
-				<!-- TODO: Картинка со стулом -->
+			<div id="priorty-products-image">
+				<img src="assets/img/chair1.png" alt="chair on blue background">
 			</div>
 		</section>
 
 		<section id="features">
-			<h3>What makes our brand different</h3>
-			<article class="feature-card">
-				<!-- TODO: Иконка -->
-				<p class="feature-card-title">Next day as standard</p>
-				<p class="feature-card-description">Order before 3pm and get your order the next day as standard.</p>
-			</article>
-			<article class="feature-card">
-				<!-- TODO: Иконка -->
-				<p class="feature-card-title">Made by true artisans</p>
-				<p class="feature-card-description">Handmade crafted goods made with real passion and craftmanship.</p>
-			</article>
-			<article class="feature-card">
-				<!-- TODO: Иконка -->
-				<p class="feature-card-title">Unbeatable prices</p>
-				<p class="feature-card-description">For our materials and quality you won’t find better prices anywhere</p>
-			</article>
-			<article class="feature-card">
-				<!-- TODO: Иконка -->
-				<p class="feature-card-title">Recycled packaging</p>
-				<p class="feature-card-description">We use 100% recycled packaging to ensure our footprint is manageable</p>
-			</article>
+			<div class="center">
+				<h3>What makes our brand different</h3>
+			</div>
+			<div id="features-box" class="align-center">
+				<article class="feature-card">
+					<img src="assets/icons/delivery.png" alt="delivery icon">
+					<p class="feature-card-title">Next day as standard</p>
+					<p class="feature-card-description">Order before 3pm and get your order the next day as standard.</p>
+				</article>
+				<article class="feature-card">
+					<img src="assets/icons/checkmark.png" alt="checkmark icon">
+					<p class="feature-card-title">Made by true artisans</p>
+					<p class="feature-card-description">Handmade crafted goods made with real passion and craftmanship.</p>
+				</article>
+				<article class="feature-card">
+					<img src="assets/icons/purchase.png" alt="credit card icon">
+					<p class="feature-card-title">Unbeatable prices</p>
+					<p class="feature-card-description">For our materials and quality you won’t find better prices anywhere</p>
+				</article>
+				<article class="feature-card">
+					<img src="assets/icons/sprout.png" alt="sprout icon">
+					<p class="feature-card-title">Recycled packaging</p>
+					<p class="feature-card-description">We use 100% recycled packaging to ensure our footprint is manageable</p>
+				</article>
+			</div>
 		</section>
 
 		<section id="products">
 			<h2>New ceramics</h2>
-			<article class="product-card">
-				<!-- TODO: Картинка товара -->
-				 <p class="product-card-title">The Dandy chair</p>
-				 <p class="product-card-price">£250</p>
-			</article>	
-			<article class="product-card">
-				<!-- TODO: Картинка товара -->
-				 <p class="product-card-title">Rustic Vase Set</p>
-				 <p class="product-card-price">£155</p>
-			</article>
-			<article class="product-card">
-				<!-- TODO: Картинка товара -->
-				 <p class="product-card-title">The Silky Vase</p>
-				 <p class="product-card-price">£125</p>
-			</article>
-			<article class="product-card">
-				<!-- TODO: Картинка товара -->
-				 <p class="product-card-title">The Lucy Lamp</p>
-				 <p class="product-card-price">£399</p>
-			</article>
+			<div id="products-box">
+				<article class="product-card">
+					<img src="assets/img/chair1.png" alt="chair">
+					<p class="product-card-title">The Dandy chair</p>
+					<p class="product-card-price">£250</p>
+				</article>	
+				<article class="product-card">
+					<img src="assets/img/vase.png" alt="vases">
+					<p class="product-card-title">Rustic Vase Set</p>
+					<p class="product-card-price">£155</p>
+				</article>
+				<article class="product-card">
+					<img src="assets/img/vase.png" alt="vase">
+					<p class="product-card-title">The Silky Vase</p>
+					<p class="product-card-price">£125</p>
+				</article>
+				<article class="product-card">
+					<img src="assets/img/lamp.png" alt="lamp">
+					<p class="product-card-title">The Lucy Lamp</p>
+					<p class="product-card-price">£399</p>
+				</article>
+			</div>
 
-			<button>View collection</button>
+			<button class="center-self-button">View collection</button>
 		</section>
 
 		<section id="products">
 			<h2>Our popular products</h2>
-			<article class="product-card">
-				<!-- TODO: Картинка товара -->
-				 <p class="product-card-title">The Poplar suede sofa</p>
-				 <p class="product-card-price">£980</p>
-			</article>	
-			<article class="product-card">
-				<!-- TODO: Картинка товара -->
-				 <p class="product-card-title">The Dandy chair</p>
-				 <p class="product-card-price">£250</p>
-			</article>
-			<article class="product-card">
-				<!-- TODO: Картинка товара -->
-				 <p class="product-card-title">The Dandy chair</p>
-				 <p class="product-card-price">£250</p>
-			</article>
+			<div id="products-box">
+				<article class="product-card">
+					<img src="assets/img/sofa1.png" alt="sofa">
+					 <p class="product-card-title">The Poplar suede sofa</p>
+					 <p class="product-card-price">£980</p>
+				</article>	
+				<article class="product-card">
+					<img src="assets/img/chair1.png" alt="chair">
+					 <p class="product-card-title">The Dandy chair</p>
+					 <p class="product-card-price">£250</p>
+				</article>
+				<article class="product-card">
+					<img src="assets/img/chair2.png" alt="chair">
+					 <p class="product-card-title">The Dandy chair</p>
+					 <p class="product-card-price">£250</p>
+				</article>
+			</div>
 
-			<button>View collection</button>
+			<button class="center-self-button">View collection</button>
 		</section>
 
 		<section id="sign-up">
-			<article>
-				<h2>Join the club and get the benefits</h2>
-				<p>Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
-
-				<div id="sign-up-div">
-					<input type="text" placeholder="example@email.com">
-					<button>Sign up</button>
-				</div>
-			</article>
+			<div id="sign-up-background">
+				<article>
+					<h2 class="center-self-text">Join the club and get the benefits</h2>
+					<p class="center-self-text">Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
+	
+					<div id="sign-up-div">
+						<input type="text" placeholder="example@email.com">
+						<button>Sign up</button>
+					</div>
+				</article>
+			</div>
 		</section>
 
-		<section>
-			<div>
+		<section id="about">
+			<div id="about-div">
 				<h2>From a studio in London to a global brand with over 400 outlets</h2>
 				<p>When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market.</p>
 				<p>Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
@@ -133,14 +152,14 @@
 				<button>Get in touch</button>
 			</div>
 			<div>
-				<!-- TODO: Картинка -->
+				<img src="assets/img/sofa2.png" alt="sofa">
 			</div>
 		</section>
 	</main>
 
-	<footer>
-		<div>
-			<section id="footer-menu">
+	<footer id="footer">
+		<div id="footer-menu">
+			<section id="footer-menu-section">
 				<article class="footer-menu-list">
 					<h4>Menu</h4>
 					<ul>
@@ -181,12 +200,15 @@
 				</div>
 			</section>
 		</div>
-		<div>
+		<hr>
+		<div id="footer-links">
 			<article>
 				<p>Copyright 2022 Avion LTD</p>
 			</article>
 			<article>
-				<!-- TODO: Иконки-->
+				<img src="assets/icons/linkedn.png" alt="media">
+				<img src="assets/icons/skype.png" alt="media">
+				<img src="assets/icons/pinterest.png" alt="media">
 			</article>
 		</div>
 	</footer>
