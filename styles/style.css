@@ -1,0 +1,311 @@
+body, html
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.space-around
+{
+    justify-content: space-around;
+}
+
+.space-between
+{
+    justify-content: space-between;
+}
+
+.align-center
+{
+    align-items: center;
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.center 
+{
+    text-align: center;
+}
+
+.product-card
+{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.center-self-button
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.center-self-button:active
+{
+    background-color: #e0e0e0;
+}
+
+.center-self-text
+{
+    text-align: center;
+}
+
+#priority-products
+{
+    margin: 4%;
+    padding: 4%;
+    display: flex;
+}
+
+#priority-products-text
+{
+    width: 70%;
+    background-color: #2a254b;
+    color: #f9f9f9;
+    padding: 4%;
+}
+
+#priority-products-text p
+{
+    margin-top: 10%;
+    color: #f9f9f9;
+}
+
+#priority-products-text button
+{
+    background-color: #cac6da66;
+    color: #f9f9f9;
+}
+
+#priority-products-text button:active
+{
+    background-color: #b8b4c866;
+}
+
+#priorty-products-image
+{
+    width: auto;
+    height: auto;
+}
+
+#features-box
+{
+    display: flex;
+}
+
+#products
+{
+    margin: 2%;
+    padding: 2%;
+}
+
+#products h2
+{
+    margin-left: 1%;
+}
+
+#products button:active
+{
+    background-color: #e0e0e0;
+}
+
+#products-box
+{
+    display: flex;
+}
+
+#sign-up-background
+{
+    background-color: #f9f9f9;
+    padding: 3%;
+}
+
+#sign-up article
+{
+    background-color: #ffffff;
+    padding: 1%;
+}
+
+#sign-up-div
+{
+    display: flex;
+    gap: 0;
+    justify-content: center;
+}
+
+#sign-up-div input
+{
+    padding: 1.5% 2.5%;
+    box-sizing: border-box;
+    border-color: #ffffff00;
+    background-color: #f9f9f9;
+    color: #e1e0e5
+}
+
+#sign-up-div input:focus
+{
+    outline: none;
+    border-color: #ffffff00;
+}
+
+#sign-up-div button
+{
+    background-color: #2a244b;
+    color: #f9f9f9;
+}
+
+#sign-up-div button:active
+{
+    background-color: #1a142b;
+}
+
+#about 
+{
+    display: flex;
+}
+
+#about-div
+{
+    padding: 3%;
+}
+
+#about-div button
+{
+    margin-top: 55%;
+    padding: 3.5% 5%;
+}
+
+#about-div button:active
+{
+    background-color: #e0e0e0;
+}
+
+#footer
+{
+    background-color: #2a244b;
+    color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+#footer hr
+{
+    border-color: #4e4c92;
+}
+
+#footer-menu
+{
+    display: flex;
+    align-items: stretch;
+}
+
+#footer-menu-section
+{
+    display: flex;
+    padding: 2%;
+    flex: 0 0 40%;
+}
+
+#footer-sign-up
+{
+    flex: 1;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+#footer-sign-up p
+{
+    color:#f9f9f9;
+    font-size: 1.5em;
+}
+
+#footer-menu-section ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu-list
+{
+    margin: 0 5%;
+}
+
+#footer-sign-up input
+{
+    padding: 3% 5%;
+    box-sizing: border-box;
+    border-color: #ffffff00;
+    background-color: #494465;
+    color: #f9f9f9;
+    font-size: 1.1em;
+    width: 100%;
+}
+
+#footer-sign-up input:focus
+{
+    outline: none;
+    border-color: #ffffff00;
+}
+
+#footer-sign-up button
+{
+    padding: 1% 4%;
+    background-color: #f9f9f9;
+    color: #2a244b;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#footer-sign-up button:active
+{
+    background-color: #e8e8e8;
+}
+
+
+#footer-links
+{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+
+#footer-links p
+{
+    color: #f9f9f9;
+}
+
+button
+{
+    padding: 1.5% 2.5%;
+    border-radius: 0px;
+    border-color: #ffffff00;
+}
+
+
+p
+{
+    color: #2a254b;
+}
+
+hr
+{
+    width: 90%;
+    margin-bottom: 1.5%;
+    color: #2a254b;
+}
+
+nav
+{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+nav a
+{
+    color: #2a254b;
+    text-decoration: none;
+}
