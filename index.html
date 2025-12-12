@@ -12,7 +12,7 @@
 </head>
 <body>
 	<header>
-		<div class="align-center space-between">
+		<div class="util-align-center util-space-between">
 			<div>
 				<img src="assets/icons/search.png" alt="search icon">
 			</div>
@@ -23,133 +23,131 @@
 			</div>
 		</div>
 		<hr>
-		<nav>
-			<div class="align-center space-around">
-				<a href="/plant-posts.html">Plant posts</a>
-				<a href="/ceramics.html">Ceramics</a>
-				<a href="/tables.html">Tables</a>
-				<a href="/chairs.html">Chairs</a>
-				<a href="/crockery.html">Crockery</a>
-				<a href="/tableware.html">Tableware</a>
-				<a href="/cutlery.html">Cutlery</a>
-			</ul>
+		<nav class="nav">
+			<div class="util-align-center util-space-around">
+				<a href="#home">Home</a>
+				<a href="#features">Features</a>
+				<a href="#new-ceramics">New Ceramics</a>
+				<a href="#popular-products">Popular Products</a>
+				<a href="#about">About</a>
+			</div>
 		</nav>
 	</header>
 
 	<main>
-		<section id="priority-products">
-			<div id="priority-products-text">
+		<section id="home" class="priority-products">
+			<div class="priority-products__text">
 				<h2>The furniture brand for the future, with timeless designs</h2>
-				<button>View collection</button>
-				<p>A new era in eco friendly furniture with Avelon, the French luxury retail brand 
-					with nice fonts, tasteful colors and a beautiful way to display things digitally 
+				<button class="button">View collection</button>
+				<p>A new era in eco friendly furniture with Avelon, the French luxury retail brand
+					with nice fonts, tasteful colors and a beautiful way to display things digitally
 					using modern web technologies.</p>
 			</div>
-			<div id="priorty-products-image">
+			<div class="priority-products__image">
 				<img src="assets/img/chair1.png" alt="chair on blue background">
 			</div>
 		</section>
 
-		<section id="features">
-			<div class="center">
+		<section id="features" class="features">
+			<div class="util-center">
 				<h3>What makes our brand different</h3>
 			</div>
-			<div id="features-box" class="align-center">
+			<div class="features__box util-align-center">
 				<article class="feature-card">
 					<img src="assets/icons/delivery.png" alt="delivery icon">
-					<p class="feature-card-title">Next day as standard</p>
-					<p class="feature-card-description">Order before 3pm and get your order the next day as standard.</p>
+					<p class="feature-card__title">Next day as standard</p>
+					<p class="feature-card__description">Order before 3pm and get your order the next day as standard.</p>
 				</article>
 				<article class="feature-card">
 					<img src="assets/icons/checkmark.png" alt="checkmark icon">
-					<p class="feature-card-title">Made by true artisans</p>
-					<p class="feature-card-description">Handmade crafted goods made with real passion and craftmanship.</p>
+					<p class="feature-card__title">Made by true artisans</p>
+					<p class="feature-card__description">Handmade crafted goods made with real passion and craftmanship.</p>
 				</article>
 				<article class="feature-card">
 					<img src="assets/icons/purchase.png" alt="credit card icon">
-					<p class="feature-card-title">Unbeatable prices</p>
-					<p class="feature-card-description">For our materials and quality you won’t find better prices anywhere</p>
+					<p class="feature-card__title">Unbeatable prices</p>
+					<p class="feature-card__description">For our materials and quality you won’t find better prices anywhere</p>
 				</article>
 				<article class="feature-card">
 					<img src="assets/icons/sprout.png" alt="sprout icon">
-					<p class="feature-card-title">Recycled packaging</p>
-					<p class="feature-card-description">We use 100% recycled packaging to ensure our footprint is manageable</p>
+					<p class="feature-card__title">Recycled packaging</p>
+					<p class="feature-card__description">We use 100% recycled packaging to ensure our footprint is manageable</p>
 				</article>
 			</div>
 		</section>
 
-		<section id="products">
+		<section id="new-ceramics" class="products">
 			<h2>New ceramics</h2>
-			<div id="products-box">
+			<div class="products__box">
 				<article class="product-card">
 					<img src="assets/img/chair1.png" alt="chair">
-					<p class="product-card-title">The Dandy chair</p>
-					<p class="product-card-price">£250</p>
-				</article>	
+					<p class="product-card__title">The Dandy chair</p>
+					<p class="product-card__price">£250</p>
+				</article>
 				<article class="product-card">
 					<img src="assets/img/vase.png" alt="vases">
-					<p class="product-card-title">Rustic Vase Set</p>
-					<p class="product-card-price">£155</p>
+					<p class="product-card__title">Rustic Vase Set</p>
+					<p class="product-card__price">£155</p>
 				</article>
 				<article class="product-card">
 					<img src="assets/img/vase.png" alt="vase">
-					<p class="product-card-title">The Silky Vase</p>
-					<p class="product-card-price">£125</p>
+					<p class="product-card__title">The Silky Vase</p>
+					<p class="product-card__price">£125</p>
 				</article>
 				<article class="product-card">
 					<img src="assets/img/lamp.png" alt="lamp">
-					<p class="product-card-title">The Lucy Lamp</p>
-					<p class="product-card-price">£399</p>
+					<p class="product-card__title">The Lucy Lamp</p>
+					<p class="product-card__price">£399</p>
 				</article>
 			</div>
 
-			<button class="center-self-button">View collection</button>
+			<button class="button-center-self button">View collection</button>
 		</section>
 
-		<section id="products">
+		<section id="popular-products" class="products">
 			<h2>Our popular products</h2>
-			<div id="products-box">
+			<div class="products__box">
 				<article class="product-card">
 					<img src="assets/img/sofa1.png" alt="sofa">
-					 <p class="product-card-title">The Poplar suede sofa</p>
-					 <p class="product-card-price">£980</p>
-				</article>	
+					 <p class="product-card__title">The Poplar suede sofa</p>
+					 <p class="product-card__price">£980</p>
+				</article>
 				<article class="product-card">
 					<img src="assets/img/chair1.png" alt="chair">
-					 <p class="product-card-title">The Dandy chair</p>
-					 <p class="product-card-price">£250</p>
+					 <p class="product-card__title">The Dandy chair</p>
+					 <p class="product-card__price">£250</p>
 				</article>
 				<article class="product-card">
 					<img src="assets/img/chair2.png" alt="chair">
-					 <p class="product-card-title">The Dandy chair</p>
-					 <p class="product-card-price">£250</p>
+					 <p class="product-card__title">The Dandy chair</p>
+					 <p class="product-card__price">£250</p>
 				</article>
 			</div>
 
-			<button class="center-self-button">View collection</button>
+			<button class="button-center-self button">View collection</button>
 		</section>
 
-		<section id="sign-up">
-			<div id="sign-up-background">
+		<section id="sign-up" class="sign-up">
+			<div class="sign-up__background">
 				<article>
-					<h2 class="center-self-text">Join the club and get the benefits</h2>
-					<p class="center-self-text">Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
-	
-					<div id="sign-up-div">
-						<input type="text" placeholder="example@email.com">
-						<button>Sign up</button>
+					<h2 class="text-center-self">Join the club and get the benefits</h2>
+					<p class="text-center-self">Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
+
+					<div class="sign-up__form">
+						<input class="sign-up__input" type="text" placeholder="example@email.com">
+						<button class="sign-up__button button">Sign up</button>
 					</div>
 				</article>
 			</div>
 		</section>
 
-		<section id="about">
-			<div id="about-div">
+		<section id="about" class="about">
+			<div class="about__content">
 				<h2>From a studio in London to a global brand with over 400 outlets</h2>
 				<p>When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market.</p>
 				<p>Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
-				
-				<button>Get in touch</button>
+
+				<button class="button">Get in touch</button>
 			</div>
 			<div>
 				<img src="assets/img/sofa2.png" alt="sofa">
@@ -157,10 +155,10 @@
 		</section>
 	</main>
 
-	<footer id="footer">
-		<div id="footer-menu">
-			<section id="footer-menu-section">
-				<article class="footer-menu-list">
+	<footer class="footer">
+		<div class="footer__menu">
+			<section class="footer__menu-section">
+				<article class="footer__menu-list">
 					<h4>Menu</h4>
 					<ul>
 						<li>New arrivals</li>
@@ -170,7 +168,7 @@
 						<li>All products</li>
 					</ul>
 				</article>
-				<article class="footer-menu-list">
+				<article class="footer__menu-list">
 					<h4>Categories</h4>
 					<ul>
 						<li>Crockery</li>
@@ -181,7 +179,7 @@
 						<li>Crockery</li>
 					</ul>
 				</article>
-				<article class="footer-menu-list">
+				<article class="footer__menu-list">
 					<h4>Our company</h4>
 					<ul>
 						<li>About us</li>
@@ -192,16 +190,16 @@
 					</ul>
 				</article>
 			</section>
-			<section id="footer-sign-up">
+			<section class="footer__sign-up">
 				<p>Join our mailing list</p>
-				<div id="sign-up-div">
-					<input type="text" placeholder="example@email.com">
-					<button>Sign up</button>
+				<div class="sign-up__form">
+					<input class="footer__input" type="text" placeholder="example@email.com">
+					<button class="footer__button button">Sign up</button>
 				</div>
 			</section>
 		</div>
-		<hr>
-		<div id="footer-links">
+		<hr class="divider">
+		<div class="footer__links">
 			<article>
 				<p>Copyright 2022 Avion LTD</p>
 			</article>
